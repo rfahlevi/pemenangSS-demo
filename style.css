@@ -1,0 +1,52 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    opacity: 1;
+}
+
+.overlay .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+    background-image: url(assets/img/error404.png);
+    background-position-y: top;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    overflow: hidden;
+}
+
+.overlay .text {
+    margin-top: 250px;
+    text-align: center;
+    font-family: 'monserrat', sans-serif;
+}
+
+.overlay .text h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.overlay button {
+    font-family: 'monserrat', sans-serif;
+    margin-top: 40px;
+    background-color: #0f0e20;
+    border: none;
+}
+
+.overlay button:hover {
+    background-color: #0f0e20;
+    color: #b5b5b5;
+    transition: .1s;
+}
